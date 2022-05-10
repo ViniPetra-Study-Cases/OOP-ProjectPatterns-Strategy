@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StrategyPattern
+namespace oopslaoq
 {
-    class VoarNaoVoa : IVoar
+    class VoarAvião : IVoar
     {
         public void Voar()
         {
-            Console.WriteLine("Não posso voar");
+            Console.WriteLine("Voando de avião");
         }
     }
 }
