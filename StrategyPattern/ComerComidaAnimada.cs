@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace oopslaoq
+namespace StrategyPattern
 {
-    class Program
+    class ComerComidaAnimada : IComer
     {
-        static void Main(string[] args)
+        public void Comer()
         {
-
+            Console.WriteLine("Estou comendo Comida animada");
         }
     }
-
 }
